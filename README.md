@@ -6,7 +6,7 @@ now with less than 10 minute of coding I adapt this tool to what the hell I need
 if somone need it ;)
 
 
-#INSTALLING
+##INSTALLING
 
 You probably need *urllib* and *python3* installed on your machine
 	
@@ -19,8 +19,8 @@ mkidr save
 python3 downloader.py
 ```
 
-#SOURCE SUPPORTED
+##SOURCE SUPPORTED
 
-(http://www.mangaeden.com/eng/)[http://www.mangaeden.com/eng/]
-(http://www.mangaeden.com/eng/)[http://www.mangaeden.com/eng/]
+- http://www.mangaeden.com/
+- https://www.tumblr.com/
 
