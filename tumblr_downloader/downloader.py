@@ -35,7 +35,6 @@ def downloader(name,num,start):
 	res = requests.get(url)
 
 	pattern = re.compile('<photo\-url max\-width="1280">[A-Za-z:0-9_/\.]*')
-	'''<photo-url max-width="1280">http://40.media.tumblr.com/3f3145a2a24131d7ee8393d02f4b671f/tumblr_o2jq7av2oq1qdmimio1_1280.jpg</photo-url>'''
 	matching = pattern.findall(res.text)
 	padding=len('<photo-url max-width="1280">')
 
